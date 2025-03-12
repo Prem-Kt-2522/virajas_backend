@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "loginusers",
+  "info": {
+    "singularName": "loginuser",
+    "pluralName": "loginusers",
+    "displayName": "loginuser",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}
